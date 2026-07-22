@@ -13,7 +13,7 @@ const Calculator = () => {
 
   const { mutate: getbill, isPending} = useMutation({
     mutationFn: async ({ units }) => {
-      const res = await axios.post("http://localhost:8000/bills/", { units });
+      const res = await axios.post("https://eb-calculator.onrender.com/bills/", { units });
       return res.data;
     },
     onSuccess: (data, variables) => {

@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-jhzoz1cti0gznen1r_023ks+b=d^5*%nn*=m!55kvs&9b1bt3h
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "127.0.0.1",
+    "localhost",
+    "https://eb-calculator.onrender.com"
+]
 
 
 # Application definition
@@ -55,9 +59,8 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://eb-calculator.pages.dev/"
 ]
-
-CORS_ALLOW_ALL_ORIGINS = True
 
 ROOT_URLCONF = 'backend.urls'
 
