@@ -23,12 +23,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-jhzoz1cti0gznen1r_023ks+b=d^5*%nn*=m!55kvs&9b1bt3h'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",
-    "https://eb-calculator.onrender.com"
+    "eb-calculator.onrender.com"
 ]
 
 
@@ -59,7 +59,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://eb-calculator.pages.dev/"
+    "https://eb-calculator.pages.dev"
 ]
 
 ROOT_URLCONF = 'backend.urls'
