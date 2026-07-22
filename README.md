@@ -6,7 +6,7 @@ A full-stack Tamil Nadu Electricity Bill Calculator built with React, Django RES
 
 ## 🌐 Live Demo
 
-**LINK:** https://your-live-demo-link.com/
+**LINK:** https://eb-calculator.pages.dev
 
 ---
 
